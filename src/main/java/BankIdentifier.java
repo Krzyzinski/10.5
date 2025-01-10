@@ -22,7 +22,7 @@ public class BankIdentifier {
             String line;
             boolean found = false;
 
-            // Search the file for matching data
+
             while ((line = reader.readLine()) != null) {
                 if (line.startsWith(userInput)) {
                     String[] parts = line.split(";", -1);
